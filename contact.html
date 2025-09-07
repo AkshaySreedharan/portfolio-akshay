@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Akshay Sreedharan
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">Akshay Sreedharan</a>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Let's Connect!</h1>
+          <p>Feel free to reach out for collaborations or questions.</p>
+        </div>
+      </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-card">
+
+        <!-- Profile Image -->
+        <div class="contact-image fade-in" style="animation-delay: 0.2s;">
+          <img src="images/akshay.png" alt="Akshay Sreedharan">
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form fade-in" style="animation-delay: 0.4s;" action="#" method="post">
+          <h2>Contact Me</h2>
+          <p>Fill out the form below and I'll respond shortly.</p>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Your message..." required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+
+          <!-- Social Links -->
+          <div class="social-links fade-in" style="animation-delay: 0.6s;">
+            <a href="https://www.instagram.com/a_4_ksh_y" target="_blank">
+              <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/akshay-sreedharan" target="_blank">
+              <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="mailto:akshaysreedharan555@gmail.com">
+              <img src="images/gmail.png" alt="Gmail">
+            </a>
+          </div>
+        </form>
+
+      </div>
+    </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 Akshay Sreedharan – All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="Email">Email</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
